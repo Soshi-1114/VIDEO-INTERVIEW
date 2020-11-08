@@ -1,0 +1,16 @@
+.footer-links {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 4vh;
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 0px 4vh;
+  color: #4f4f4f;
+}
+
+.footer-links a:hover {
+  color: #818181;
+}

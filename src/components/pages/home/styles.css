@@ -1,0 +1,21 @@
+.home-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+.home-contents .app-name {
+  margin: 250px;
+  font-size: 12vh;
+  font-weight: 1000;
+  letter-spacing: 3vh;
+}
+
+/* #start-button {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 10vh;
+  text-align: center;
+} */

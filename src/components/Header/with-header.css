@@ -1,0 +1,12 @@
+.with-header #header {
+  position: fixed;
+  left: 8px;
+  top: 8px;
+  right: 0px;
+  height: 40px;
+  z-index: 100;
+}
+
+.with-header #content {
+  margin: 48px;
+}
