@@ -15,6 +15,15 @@ class Home extends React.Component {
               <div>INTERVIEW</div>
             </div>
           </div>
+          <div className="arrow-bottom"></div>
+          <hr/>
+          <div className="about-contents">
+            <div className="howto-video">
+              <h1>About This App</h1>
+              <h2>Video</h2>
+              <p>Let's practice!</p>
+            </div>
+          </div>
         <Footer/>
       </div>
     );

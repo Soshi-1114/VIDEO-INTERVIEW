@@ -6,16 +6,54 @@
 }
 
 .home-contents .app-name {
-  margin: 250px;
+  margin: 300px;
   font-size: 12vh;
   font-weight: 1000;
-  letter-spacing: 3vh;
+  letter-spacing: 4vh;
+  text-align: center;
 }
 
-/* #start-button {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 10vh;
+.about-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
   text-align: center;
-} */
+}
+
+.howto-video h1 {
+  margin: 50px;
+  font-size: 40pt;
+  font-weight: 1000;
+  letter-spacing: 1vh;
+  text-align: center;
+}
+
+.howto-video h2 {
+  margin: 30px;
+  font-size: 30pt;
+  font-weight: 1000;
+  letter-spacing: 1vh;
+  text-align: center;
+}
+
+.howto-video p {
+  margin: 30px;
+  font-size: 20pt;
+  font-weight: 1000;
+  letter-spacing: 1vh;
+  text-align: center;
+}
+
+.arrow-bottom {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-bottom: 4px solid #000;
+  border-right: 4px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}

@@ -11,7 +11,7 @@ class Footer extends React.Component {
           <Link to="/calendar">Calendar</Link>
           <Link to="/video">Video</Link>
           <Link to="/todo">Todo</Link>
-        </div>      
+        </div>
       </footer>
     );
   }
